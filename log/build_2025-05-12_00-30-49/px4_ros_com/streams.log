@@ -1,0 +1,181 @@
+[0.007s] Invoking command in '/home/vicenzo/Documents/ros_px4_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/vicenzo/Documents/ros_px4_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vicenzo/Documents/ros_px4_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/vicenzo/Documents/ros_px4_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vicenzo/Documents/ros_px4_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/vicenzo/Documents/ros_px4_ws/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com
+[0.087s] -- The C compiler identification is GNU 11.4.0
+[0.211s] -- The CXX compiler identification is GNU 11.4.0
+[0.225s] -- Detecting C compiler ABI info
+[0.285s] -- Detecting C compiler ABI info - done
+[0.294s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.294s] -- Detecting C compile features
+[0.297s] -- Detecting C compile features - done
+[0.301s] -- Detecting CXX compiler ABI info
+[0.371s] -- Detecting CXX compiler ABI info - done
+[0.381s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.382s] -- Detecting CXX compile features
+[0.382s] -- Detecting CXX compile features - done
+[0.388s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.535s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.645s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.701s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.709s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.723s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.741s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.765s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.790s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.806s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.809s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.852s] -- Found px4_msgs: 2.0.1 (/home/vicenzo/Documents/ros_px4_ws/install/px4_msgs/share/px4_msgs/cmake)
+[0.869s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.939s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.944s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.041s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.083s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.131s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.146s] -- Looking for pthread.h
+[1.208s] -- Looking for pthread.h - found
+[1.208s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.269s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.270s] -- Found Threads: TRUE  
+[1.338s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.368s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[1.379s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.507s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.517s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.518s] -- Configured cppcheck include dirs: /home/vicenzo/Documents/ros_px4_ws/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/vicenzo/Documents/ros_px4_ws/src/px4_ros_com/include/px4_ros_com>
+[1.518s] -- Configured cppcheck exclude dirs and/or files: 
+[1.522s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.522s] -- Configured cpplint exclude dirs and/or files: 
+[1.524s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.525s] -- Added test 'lint_cmake' to check CMake code style
+[1.526s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.530s] -- Added test 'uncrustify' to check C / C++ code style
+[1.531s] -- Configured uncrustify additional arguments: 
+[1.532s] -- Added test 'xmllint' to check XML markup files
+[1.534s] -- Configuring done
+[1.562s] -- Generating done
+[1.572s] -- Build files have been written to: /home/vicenzo/Documents/ros_px4_ws/build/px4_ros_com
+[1.584s] Invoked command in '/home/vicenzo/Documents/ros_px4_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/vicenzo/Documents/ros_px4_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vicenzo/Documents/ros_px4_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/vicenzo/Documents/ros_px4_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vicenzo/Documents/ros_px4_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/vicenzo/Documents/ros_px4_ws/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com
+[1.586s] Invoking command in '/home/vicenzo/Documents/ros_px4_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/vicenzo/Documents/ros_px4_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vicenzo/Documents/ros_px4_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/vicenzo/Documents/ros_px4_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vicenzo/Documents/ros_px4_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vicenzo/Documents/ros_px4_ws/build/px4_ros_com -- -j4 -l4
+[1.622s] [  8%] [32mBuilding CXX object CMakeFiles/frame_transforms.dir/src/lib/frame_transforms.cpp.o[0m
+[1.627s] [ 16%] [32mBuilding CXX object CMakeFiles/sensor_combined_listener.dir/src/examples/listeners/sensor_combined_listener.cpp.o[0m
+[1.635s] [ 25%] [32mBuilding CXX object CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o[0m
+[1.647s] [ 33%] [32mBuilding CXX object CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o[0m
+[3.084s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+[3.085s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[3.085s]                  from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+[3.085s]                  from [01m[K/home/vicenzo/Documents/ros_px4_ws/src/px4_ros_com/include/px4_ros_com/frame_transforms.h:45[m[K,
+[3.085s]                  from [01m[K/home/vicenzo/Documents/ros_px4_ws/src/px4_ros_com/src/lib/frame_transforms.cpp:41[m[K:
+[3.085s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[3.085s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[3.085s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[3.085s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.086s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+[3.086s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[3.086s]                  from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+[3.086s]                  from [01m[K/home/vicenzo/Documents/ros_px4_ws/src/px4_ros_com/include/px4_ros_com/frame_transforms.h:45[m[K,
+[3.086s]                  from [01m[K/home/vicenzo/Documents/ros_px4_ws/src/px4_ros_com/src/lib/frame_transforms.cpp:41[m[K:
+[3.086s] [01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[3.087s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[3.087s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.087s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+[3.087s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[3.087s]                  from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+[3.087s]                  from [01m[K/home/vicenzo/Documents/ros_px4_ws/src/px4_ros_com/include/px4_ros_com/frame_transforms.h:45[m[K,
+[3.088s]                  from [01m[K/home/vicenzo/Documents/ros_px4_ws/src/px4_ros_com/src/lib/frame_transforms.cpp:41[m[K:
+[3.088s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[3.088s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[3.088s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[3.088s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.088s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+[3.088s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[3.088s]                  from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+[3.094s]                  from [01m[K/home/vicenzo/Documents/ros_px4_ws/src/px4_ros_com/include/px4_ros_com/frame_transforms.h:45[m[K,
+[3.095s]                  from [01m[K/home/vicenzo/Documents/ros_px4_ws/src/px4_ros_com/src/lib/frame_transforms.cpp:41[m[K:
+[3.095s] [01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[3.095s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[3.095s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[16.003s] [ 41%] [32m[1mLinking CXX executable debug_vect_advertiser[0m
+[17.135s] [ 41%] Built target debug_vect_advertiser
+[17.180s] [ 50%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[27.593s] [ 58%] [32m[1mLinking CXX shared library libframe_transforms.so[0m
+[28.633s] [ 58%] Built target frame_transforms
+[29.665s] [ 66%] [32m[1mLinking CXX executable sensor_combined_listener[0m
+[29.810s] [ 75%] [32m[1mLinking CXX executable vehicle_gps_position_listener[0m
+[30.391s] [ 75%] Built target sensor_combined_listener
+[30.536s] [ 75%] Built target vehicle_gps_position_listener
+[31.389s] [ 83%] [32m[1mLinking CXX executable offboard_control[0m
+[31.598s] [ 83%] Built target offboard_control
+[31.621s] [ 83%] Built target ament_cmake_python_copy_px4_ros_com
+[31.635s] [ 91%] [32mBuilding CXX object CMakeFiles/offboard_control_srv.dir/src/examples/offboard/offboard_control_srv.cpp.o[0m
+[36.852s] [100%] [32m[1mLinking CXX executable offboard_control_srv[0m
+[37.088s] [100%] Built target offboard_control_srv
+[37.328s] running egg_info
+[37.329s] creating px4_ros_com.egg-info
+[37.329s] writing px4_ros_com.egg-info/PKG-INFO
+[37.330s] writing dependency_links to px4_ros_com.egg-info/dependency_links.txt
+[37.330s] writing top-level names to px4_ros_com.egg-info/top_level.txt
+[37.330s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[37.334s] reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[37.334s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[37.355s] [100%] Built target ament_cmake_python_build_px4_ros_com_egg
+[37.370s] Invoked command in '/home/vicenzo/Documents/ros_px4_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/vicenzo/Documents/ros_px4_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vicenzo/Documents/ros_px4_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/vicenzo/Documents/ros_px4_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vicenzo/Documents/ros_px4_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vicenzo/Documents/ros_px4_ws/build/px4_ros_com -- -j4 -l4
+[37.374s] Invoking command in '/home/vicenzo/Documents/ros_px4_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/vicenzo/Documents/ros_px4_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vicenzo/Documents/ros_px4_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/vicenzo/Documents/ros_px4_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vicenzo/Documents/ros_px4_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vicenzo/Documents/ros_px4_ws/build/px4_ros_com
+[37.379s] -- Install configuration: ""
+[37.380s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[37.387s] -- Set runtime path of "/home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener" to ""
+[37.387s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[37.393s] -- Set runtime path of "/home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener" to ""
+[37.393s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[37.394s] -- Set runtime path of "/home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser" to ""
+[37.394s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[37.396s] -- Set runtime path of "/home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control" to ""
+[37.396s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv
+[37.398s] -- Set runtime path of "/home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv" to ""
+[37.398s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[37.398s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[37.399s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/include/px4_ros_com
+[37.399s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[37.399s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/lib/libframe_transforms.so
+[37.405s] -- Set runtime path of "/home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/lib/libframe_transforms.so" to ""
+[37.405s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/px4_ros_com//launch
+[37.405s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[37.406s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[37.406s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/px4_ros_com//test
+[37.406s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[37.407s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[37.407s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[37.408s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[37.408s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh
+[37.408s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv
+[37.408s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info
+[37.408s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/top_level.txt
+[37.409s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/SOURCES.txt
+[37.409s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/PKG-INFO
+[37.409s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/dependency_links.txt
+[37.409s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com
+[37.409s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py
+[37.410s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py
+[37.437s] Listing '/home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com'...
+[37.437s] Compiling '/home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py'...
+[37.437s] Compiling '/home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py'...
+[37.441s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control.py
+[37.442s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[37.443s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[37.443s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[37.444s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[37.444s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[37.444s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[37.444s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[37.445s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[37.445s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[37.445s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[37.446s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/px4_ros_com/package.dsv
+[37.446s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[37.446s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[37.447s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+[37.447s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[37.447s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[37.447s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[37.447s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[37.447s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[37.448s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[37.448s] -- Installing: /home/vicenzo/Documents/ros_px4_ws/install/px4_ros_com/share/px4_ros_com/package.xml
+[37.449s] Invoked command in '/home/vicenzo/Documents/ros_px4_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/vicenzo/Documents/ros_px4_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vicenzo/Documents/ros_px4_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/vicenzo/Documents/ros_px4_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vicenzo/Documents/ros_px4_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vicenzo/Documents/ros_px4_ws/build/px4_ros_com
